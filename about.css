@@ -1,0 +1,47 @@
+.about-section{
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-part{
+    width: 33%;
+    border: 2px solid black;
+    min-height: 270px;
+    background-color: rgb(140, 140, 140);
+    padding: 2rem;
+    margin: 2rem;
+    font-size: 1.1rem;
+    border-radius: 1.2rem;
+}
+
+.about-part img{
+    border-radius: 69rem;
+}
+.about-title{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+.not-AI{
+    width: 90%;
+    position: absolute;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding: 2rem;
+    background-color: rgb(140, 140, 140);
+    border: 2px solid black;
+    font-size: 1.1rem;
+    bottom: 10rem;
+    border-radius: 1.2rem;
+}
+.heading{
+    position: absolute;
+    text-align: center;
+    top: 9rem;
+    background-color: rgb(140, 140, 140);
+    border: 2px solid black;
+    padding: 1.5rem;
+    border-radius: 1.2rem;
+}

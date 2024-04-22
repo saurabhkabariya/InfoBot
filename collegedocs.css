@@ -55,38 +55,75 @@ body{
     transform: translateY(0);
     opacity: 1;
 }
-.search-bar{
-    width: 250px;
-    height: 45px;
+.login{
+    position: relative;
     background-color: transparent;
-    border: 4px solid #cfcfcf;
-    border-radius: 6px;
     display: flex;
+    right: 6.2rem;
+    align-items:center;
+    justify-content: center;
+}
+.login button{
+    cursor: pointer;
+    transition: .5s ease;
+    padding: 0.8rem;
+    background-color: #252627;
+    color: #f2efe9;
+}
+.login button:hover{
+    transform: scale(1.2);
+    background-color: #f2efe9;
+    color: #252627;
+}
+.content{
+    display: flex;
+    position: relative;
+    justify-content: center;
     align-items: center;
 }
-.search-bar input{
-    width: 100%;
-    background-color: transparent;
-    border: none;
-    outline: none;
-    color: #fff;
-    font-size: 16px;
-    padding-left: 10px;
-}
-.search-bar button{
-    width: 40px;
+.container{
     height: 100%;
-    background: transparent;
-    outline: none;
-    border: none;
-    color: #fff;
+    width: 50%;
+    /* display: flex;
+    flex-direction: column; */
+    position: relative;
+    left: 6rem;
+    top: 6rem;
+}
+.container ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.option{
+    height: 2rem;
+    width: 33rem;
+    border-radius: 0.5rem;
+    border: 0.5px solid black;
+    background-color: rgb(140, 140, 140);
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,-1),0 4px 11px 0 rgba(0,0,0,.08);
     cursor: pointer;
 }
-.search-bar input::placeholder{
-    color: #fff;
+.option :after{
+    content: "";
+    position: absolute;
+    right: 6rem;
+    top: 6rem;
+    width: 33rem;
+    height: 2rem;
+    background: url(arrow.png) no-repeat 0 0;
+
 }
-.search-bar button i{
-    font-size: 22px;
+.container ul li{
+    text-decoration: none;
+    text-align: center;
+    margin: 2rem;
+    padding: 2rem;
 }
 .footer{
     width: 100%;
