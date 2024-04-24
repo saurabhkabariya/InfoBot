@@ -9,7 +9,6 @@ body{
     width: 100%;
     background: #000;
     overflow-x: hidden;
-    overflow-y: hidden;
     background-image: url("good.png");
     background-size: cover;
     background-repeat: no-repeat;
@@ -55,32 +54,21 @@ body{
     transform: translateY(0);
     opacity: 1;
 }
-.login{
-    position: relative;
-    background-color: transparent;
-    display: flex;
-    right: 6.2rem;
-    align-items:center;
-    justify-content: center;
+.footer{
+    width: 100%;
+    height: 5rem;
+    /* position: fixed; */
+    /* bottom: 0%; */
+    text-align: center;
+    color: white;
+    text-decoration: none;
 }
-.login button{
-    cursor: pointer;
-    transition: .5s ease;
-    padding: 0.8rem;
-    background-color: #252627;
-    color: #f2efe9;
+.footer a{
+    text-decoration: none;
+    color: white;
 }
-.login button:hover{
-    transform: scale(1.2);
-    background-color: #f2efe9;
-    color: #252627;
-}
-.content{
-    display: flex;
-    position: relative;
-    justify-content: center;
-    align-items: center;
-}
+
+
 .container{
     height: 100%;
     width: 50%;
@@ -108,6 +96,7 @@ body{
     flex-direction: column;
     box-shadow: 0 5px 11px 0 rgba(0,0,0,-1),0 4px 11px 0 rgba(0,0,0,.08);
     cursor: pointer;
+    font-weight: 600;
 }
 .option :after{
     content: "";
@@ -117,24 +106,82 @@ body{
     width: 33rem;
     height: 2rem;
     background: url(arrow.png) no-repeat 0 0;
-
 }
+
+.login{
+    position: relative;
+    background-color: transparent;
+    display: flex;
+    right: 6.2rem;
+    align-items:center;
+    justify-content: center;
+}
+.login button{
+    cursor: pointer;
+    transition: .5s ease;
+    padding: 0.8rem;
+    background-color: #252627;
+    color: #f2efe9;
+}
+.login button:hover{
+    transform: scale(1.2);
+    background-color: #f2efe9;
+    color: #252627;
+}
+.content{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
 .container ul li{
     text-decoration: none;
     text-align: center;
     margin: 2rem;
     padding: 2rem;
 }
-.footer{
-    width: 100%;
-    height: 5rem;
-    position: fixed;
-    bottom: 0%;
-    text-align: center;
-    color: white;
-    text-decoration: none;
-}
-.footer a{
-    text-decoration: none;
-    color: white;
-}
+
+/* Accoridan */
+.accordion {
+    background: radial-gradient(#92b7ce, #0c334c);;
+    color: #d9d9da;
+    cursor: pointer;
+    padding: 18px;
+    width: 85%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    margin-bottom: 10px;
+  }
+  
+  .active, .accordion:hover {
+    background-color: #0e4467; 
+  }
+
+  .panel {
+    padding: 0 18px;
+    display: none;
+    background:radial-gradient(#92b7ce, #0c334c);;
+    overflow: hidden;
+    min-height: 185px;  
+    width: 621px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    padding-top: 13px;
+    color: aliceblue;
+  }
+  .main-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    margin-right: 50px;
+    position: relative;
+  }

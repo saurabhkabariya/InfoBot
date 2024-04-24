@@ -3,93 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "poppins",sans-serif;
-}
-/* .bgm{
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-}
-.bgm img{
-    overflow-y: hidden;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-} */
-body{
-    height: 100vh;
-    width: 100%;
-    background: #000;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    background-image: url("good.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-}
-.header{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 25px 13%;
-    background: transparent;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 100;
-}
-.navbar{
-    position: relative;
-    left: 8rem;
-}
-.navbar a{
-    position: relative;
-    font-size: 16px;
-    color: #fff;
-    margin-right: 30px;
-    text-decoration: none;
-    
-}
-
-.navbar a::after{
-    content: "";
-    position: absolute;
-    left: 0;
-    width: 100%;
-    height: 2px;
-    background: #fff;
-    bottom: -5px;
-    border-radius: 5px;
-    transform: translateY(10px);
-    opacity: 0;
-    transition: .5s ease;
-}
-
-.navbar a:hover:after{
-    transform: translateY(0);
-    opacity: 1;
-}
-#login{
-    position: relative;
-    background-color: transparent;
-    display: flex;
-    right: 6.2rem;
-    align-items:center;
-    justify-content: center;
-}
-#login button{
-    cursor: pointer;
-    transition: .5s ease;
-    padding: 0.8rem;
-    background-color: #252627;
-    color: #f2efe9;
-}
-#login button:hover{
-    transform: scale(1.2);
-    background-color: #f2efe9;
-    color: #252627;
+    color: white;
 }
 .container{
     position: absolute;
@@ -126,6 +40,8 @@ body{
 .item .logo{
     color: #fff;
     font-size: 80px;
+    position: relative;
+    left: -10rem;
 
 }
 .login-section{
@@ -252,21 +168,4 @@ body{
 }
 .create-account p a:hover{
     text-decoration: underline;
-}
-/* .login{
-    border: 1px solid red; 
-    margin-left: 150px;
-} */
-.footer{
-    width: 100%;
-    height: 5rem;
-    position: fixed;
-    bottom: 0%;
-    text-align: center;
-    color: white;
-    text-decoration: none;
-}
-.footer a{
-    text-decoration: none;
-    color: white;
 }

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,27 +8,74 @@
     <link rel="stylesheet" href="govdocs.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
+
 <body>
     <header class="header">
         <nav class="navbar">
-            <a href="#">Home</a>
-              <a href="#">About</a>
-              <a href="#">Contact</a>
-              <a href="#">Help</a>
-              <a href="https://github.com/saurabhkabariya/InfoBot">GitHub</a>  
-              <a href="LoginPage.html">Log in</a>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contactus.html">Contact</a>
+            <a href="FAQ.html">FAQS</a>
+            <a href="https://github.com/saurabhkabariya/InfoBot">GitHub</a>
         </nav>
-        <form action="" class="search-bar">
-           <input type="text" placeholder="Search...">
-           <button><i class='bx bx-search'></i></button>
-        </form>
-       </header>
-       
-       <footer class="footer">
+    </header>
+    <div class="main-container">
+    <div class="container">
+        <ul>
+            <button class="accordion">
+                <li class="option">Adhar Card</li></button>
+                <div class="panel">
+                    Student ID proof <br>
+                    Residential proof such as ration card, voter ID card, driving license, or PAN card <br>
+                    Mark sheets of qualifying examination <br>
+                    Passport size photograph of the applicant <br>
+                    Bank passbook <br>
+                    Category certificate <br>
+                </div>
+            <button class="accordion">
+                <li class="option">Pan Card</li></button>
+                <div class="panel">
+                    Proof of Identity: (Any one of) Ration Card/Voter ID/Passport/Driving License, etc. <br>
+                    Proof of Address: (Any one of) Passport/Voter ID/Driving License/Ration Card/Bank
+                    Passbook, etc. <br>
+                    Proof of Date of Birth: (Any one of) Passport/Birth Certificate/Aadhar Card, etc. <br>
+                </div>
+    </ul>
+    </div>    
+    <div class="container">
+    <ul>
+            <button class="accordion">
+                <li class="option">Voting Card</li></button>
+                <div class="panel">
+                    Recent passport size photograph <br>
+                    Proof of address <br>
+                    Birth certificate issued by a municipal authority. <br>
+                    Passport. <br>
+                    Aadhaar card. <br>
+                    Driving License. <br>
+
+                </div>
+            <button class="accordion">
+                <li class="option">Driving License</li></button>
+            <div class="panel">
+                Birth certificate, PAN card, passport, 10th class mark sheet, or transfer certificate from any school with date of birth printed on it   <br>                 
+                Passport, Aadhaar card, self-owned house agreement, electricity bill, LIC bond, voters ID card, or ration card        <br>         
+                A passport-sized photograph is attached to the driver's license, which serves as proof of identity and registration number <br>
+            </div>
+    </ul>
+    </div>
+    </div>
+
+    <footer class="footer">
         <div class="aboutus">
-            <a href="index.html"><h1 class="logo"><i class='bx bxl-xing'></i>Info Bot</h1></a>
-            <a href="#">Terms&policy</a> | <a href="#">Help&Support</a>  
+            <a href="index.html">
+                <h1 class="logo"><i class='bx bxl-xing'></i>Info Bot</h1>
+            </a>
+            <a href="#">Terms&policy</a> | <a href="#">Help&Support</a>
         </div>
-</footer>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
+
 </html>

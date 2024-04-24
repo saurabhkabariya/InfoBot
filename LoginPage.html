@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <title>Login Page</title>
+    <link rel="stylesheet" href="HomePage.css">
     <link rel="stylesheet" href="LoginPage.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
@@ -11,14 +12,11 @@
     </div> -->
     <header class="header">
         <nav class="navbar">
-            <a href="#">Home</a>
-              <a href="#">About</a>
-              <a href="#">Contact</a>
+            <a href="index.html">Home</a>
+              <a href="about.html">About</a>
+              <a href="contactus.html">Contact</a>
               <a href="#">FAQS</a>
               <a href="https://github.com/saurabhkabariya/InfoBot">GitHub</a>  
-        </nav>
-        <nav id="login">
-            <a href="LoginPage.html"><button buttontype="button">Log in</button></a>
         </nav>
        </header>
     <div class="container">
@@ -28,8 +26,8 @@
     </div>
     <div class="login-section" >
         <div class="form-box login">
-            <form action="">
-                <h2>Sign In</h2>
+            <form action="" method="post">
+                <h2>Log In</h2>
                 <div class="input-box">
                     <span class="icon"><i class='bx bxs-envelope'></i></span>
                     <input type="email" name="email" required>
@@ -45,7 +43,7 @@
                     <a href="#">Forget Password?</a>
                 </div>
                 <br>
-                <button class="btn">Login</button>
+                <button class="btn" type="submit">Login</button>
                 <div class="create-account">
                     <p>Create A New Account? <a href="#" class="register-link">Sign Up</a></p>
                 </div>
@@ -53,7 +51,7 @@
         </div>
 
         <div class="form-box register">
-            <form action="">
+            <form action="C:\xampp\htdocs\login.php" method="post" >
 
                 <h2>Sign Up</h2>
 
@@ -75,7 +73,7 @@
                 <div class="remember-password">
                     <label for=""><input type="checkbox">I agree with this statment</label>
                 </div>
-                <button class="btn">Log In</button>
+                <button class="btn" type="submit">Sign Up</button>
                 <div class="create-account">
                     <p>Already Have An Account? <a href="#" class="login-link">Sign In</a></p>
                 </div>

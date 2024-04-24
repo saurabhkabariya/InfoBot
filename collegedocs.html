@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,42 +8,75 @@
     <link rel="stylesheet" href="collegedocs.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
+
 <body>
     <header class="header">
         <nav class="navbar">
-            <a href="#">Home</a>
-              <a href="#">About</a>
-              <a href="#">Contact</a>
-              <a href="#">Help</a>
-              <a href="https://github.com/saurabhkabariya/InfoBot">GitHub</a>  
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contactus.html">Contact</a>
+            <a href="FAQ.html">FAQS</a>
+            <a href="https://github.com/saurabhkabariya/InfoBot">GitHub</a>
         </nav>
         <nav class="login">
             <a href="LoginPage.html"><button buttontype="button">Log in</button></a>
         </nav>
-       </header>
-       <div class="content">
-       <div class="container">
+    </header>
+    <div class="main-container">
+    <div class="container">
         <ul>
-            <li class="option">Bonofide Issue procedure and require Documents</li>
-            <li class="option">Scholarship Issue procedure and require Documents</li>
-            <li class="option">I-card Issue procedure and require Documents</li>
-            <li class="option">Library Book Issue procedure</li>
-        </ul>
-       </div>
-       <div class="container">
-        <ul>
-            <li class="option"> Issue procedure and require Documents</li>
-            <li class="option">Scholarship Issue procedure and require Documents</li>
-            <li class="option">I-card Issue procedure and require Documents</li>
-            <li class="option">Library Book Issue procedure</li>
+            <button class="accordion">
+                <li class="option">Bonofide Issue procedure and require Documents</li></button>
+                <div class="panel">
+                    2 Passport size photo <br>
+                    Grade history/result <br>
+                    Id card <br>
+                    Term fee receipt <br>
+                </div>
+            
+            <button class="accordion">
+                <li class="option">Scholarship Issue procedure and require Documents</li>
+            </button>
+            <div class="panel">
+                2 Passport size photo <br>
+                Grade history/result <br>
+                Id card <br>
+                Term fee receipt <br>
+            </div>
         </ul>
         </div>
-        </div>
-       <footer class="footer">
+        <div class="container">
+            <ul>
+            <button class="accordion">
+                <li class="option">I-card Issue procedure and require Documents</li>
+            </button>
+            <div class="panel">
+                2 Passport size photo <br>
+                Grade history/result <br>
+                Id card <br>
+                Term fee receipt <br>
+            </div>
+            <button class="accordion">
+                <li class="option">Library Book Issue procedure</li>
+            </button>
+            <div class="panel">
+                2 Passport size photo <br>
+                Grade history/result <br>
+                Id card <br>
+                Term fee receipt <br>
+            </div>
+        </ul>
+    </div>
+    </div>
+    <footer class="footer">
         <div class="aboutus">
-            <a href="index.html"><h1 class="logo"><i class='bx bxl-xing'></i>Info Bot</h1></a>
-            <a href="#">Terms&policy</a> | <a href="#">Help&Support</a>  
+            <a href="index.html">
+                <h1 class="logo"><i class='bx bxl-xing'></i>Info Bot</h1>
+            </a>
+            <a href="#">Terms&policy</a> | <a href="#">Help&Support</a>
         </div>
-</footer>
+    </footer>
+    <script src="script.js"></script>
 </body>
+
 </html>

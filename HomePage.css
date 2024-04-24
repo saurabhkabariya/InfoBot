@@ -49,7 +49,6 @@ body{
     width: 100%;
     background: #000;
     overflow-x: hidden;
-    overflow-y: hidden;
     background-image: url("good.png");
     background-size: cover;
     background-repeat: no-repeat;
@@ -116,7 +115,7 @@ body{
     align-items:center;
     justify-content: center;
 }
-.login button{
+#loginbtn{
     cursor: pointer;
     transition: .5s ease;
     padding: 0.8rem;
@@ -126,7 +125,7 @@ body{
     font-size: 16px;
     box-shadow: 3px 3px 0 black;
 }
-.login button:hover{
+#loginbtn:hover{
     transform: scale(1.1);
     background-color: #f2efe9;
     color: #252627;
@@ -266,6 +265,10 @@ body{
     transition: 0.5s;
   }
 
+#twitter{
+    height: 5px;
+}
+
 
   @keyframes wave {
     from {
@@ -294,3 +297,4 @@ body{
     text-decoration: none;
     color: white;
 }
+

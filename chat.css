@@ -92,7 +92,7 @@ body{
     padding: 2rem;
     display: flex;
     position: relative;
-    background-color: #390867;
+    background-color: #6D72C3;
     color: white;
     height: 4rem;
     width: 90%;
@@ -111,7 +111,7 @@ body{
     padding: 2rem;
     border: 0.5px solid black;
     border-radius: 2rem;
-    background-color: rgb(255, 185, 0);
+    background-color: rgb(255,255,255);
     color: black;
     cursor: pointer;
     text-decoration: none;
