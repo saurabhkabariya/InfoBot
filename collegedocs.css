@@ -54,19 +54,7 @@ body{
     transform: translateY(0);
     opacity: 1;
 }
-.footer{
-    width: 100%;
-    height: 5rem;
-    /* position: fixed; */
-    /* bottom: 0%; */
-    text-align: center;
-    color: white;
-    text-decoration: none;
-}
-.footer a{
-    text-decoration: none;
-    color: white;
-}
+
 
 
 .container{
@@ -185,3 +173,16 @@ body{
     margin-right: 50px;
     position: relative;
   }
+  .footer{
+    width: 100%;
+    height: 5rem;
+    /* position: fixed;
+    bottom: 0%; */
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+}
