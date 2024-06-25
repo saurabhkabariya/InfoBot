@@ -59,7 +59,7 @@ body{
     position: relative;
     background-color: transparent;
     display: flex;
-    right: 6.2rem;
+    right: 18.2rem;
     align-items:center;
     justify-content: center;
 }
@@ -76,17 +76,43 @@ body{
     color: #252627;
 }
 .container{
-    height: 30rem;
-    color: #fff;
-    top: 6rem;
-    position: relative;
-    display: flex;
-    padding-left: 5rem;
-    flex-direction: column;
-    justify-content: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    height: 550px;
+    margin-top: 20px;
+    background: url(backgroun3.jpg) no-repeat;
+    background-position: center;
+    background-size:cover ;
+    border-radius: 20px;
+    overflow: hidden; 
 }
-.container .useroptions ul{
-    list-style: none;
+.item{
+    position: relative;
+    left: 15rem;
+    top: 6rem;
+}
+.item a{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 80px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    color: #fff;
+    text-decoration: none;
+}
+.item .logo{
+    color: #fff;
+    font-size: 80px;
+    position: relative;
+    left: -6rem;
+
 }
 .infochat{
     padding: 2rem;
